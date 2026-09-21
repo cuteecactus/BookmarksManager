@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookmark Manager</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Bookmarks</h1>
+  </header>
+
+  <main>
+    <form id="addForm">
+      <input type="text" id="nameInput" placeholder="Name" required>
+      <input type="url" id="urlInput" placeholder="https://cactusmc.xyz" required>
+      <input type="url" id="iconInput" placeholder="Icon URL (optional)">
+      <button type="submit">Add</button>
+    </form>
+
+    <input type="search" id="searchInput" placeholder="Search bookmarks...">
+    <div id="bookmarks"></div>
+
+    <p id="emptyState" class="hidden">No bookmarks yet. Add one above!</p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
