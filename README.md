@@ -2,6 +2,9 @@
 
 A simple bookmark manager with card view, built with vanilla HTML, CSS, and Node.js.
 
+<img width="1276" height="666" alt="image" src="https://github.com/user-attachments/assets/2510e4b3-4c12-49f5-8b77-ce79db2dc12b" />
+
+
 ## Features
 
 - Add, remove, and search bookmarks
