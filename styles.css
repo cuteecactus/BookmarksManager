@@ -17,6 +17,27 @@ header {
   align-items: center;
   padding: 1.5rem 2rem;
   border-bottom: 1px solid #222;
+  gap: 1rem;
+}
+
+#webSearchForm {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#webSearchInput {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  color: #e0e0e0;
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  width: 260px;
+}
+
+#webSearchInput:focus {
+  outline: none;
+  border-color: #2563eb;
 }
 
 h1 {
